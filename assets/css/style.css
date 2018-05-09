@@ -1,4 +1,234 @@
 body {
-  background: pink; }
+  margin: 0;
+  padding: 0;
+  font-family: 'Open-sans', sans-serif; }
+  body .navBar {
+    font-size: 16px;
+    background: #EAEDF2;
+    display: flex;
+    width: 100%;
+    padding: 20px 0; }
+    body .navBar .navBar-brand {
+      margin-left: 15px;
+      display: flex;
+      align-items: center; }
+      body .navBar .navBar-brand img {
+        width: 200px; }
+    body .navBar .navBar-center {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%; }
+      body .navBar .navBar-center ul {
+        display: flex;
+        list-style: none; }
+        body .navBar .navBar-center ul li {
+          margin-right: 20px;
+          font-weight: 300; }
+    body .navBar .navBar-Right {
+      margin-right: 15px;
+      flex: 3;
+      font-family: 'Open-sans', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      height: 100%;
+      font-weight: 300; }
+      body .navBar .navBar-Right p {
+        margin-right: 20px; }
+      body .navBar .navBar-Right button {
+        padding: 10px 20px;
+        font-family: 'Open-sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        border: 1px solid black;
+        background: white; }
+      body .navBar .navBar-Right .try {
+        background: #539BF1;
+        color: white;
+        border-right-width: 0.4px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px; }
+      body .navBar .navBar-Right .sign {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px; }
+  body header {
+    font-family: 'Open-sans', sans-serif;
+    background: #EAEDF2;
+    text-align: center; }
+    body header h1 {
+      font-weight: 300;
+      margin: 0;
+      padding: 30px 0 50px 0; }
+  body .content {
+    display: flex;
+    background: #3E4453; }
+    body .content .item {
+      font-family: 'Open-sans',sans-serif;
+      color: white;
+      padding: 50px 0;
+      background: #3E4453;
+      border-right: 1px solid black;
+      text-align: center; }
+      body .content .item:nth-child(1) {
+        width: 400px;
+        margin-left: 100px; }
+      body .content .item:nth-child(2) {
+        width: 320px; }
+      body .content .item:nth-child(3) {
+        width: 320px; }
+      body .content .item:nth-child(4) {
+        width: 400px;
+        margin-right: 100px;
+        border-right: 0; }
+      body .content .item p {
+        color: rgba(255, 255, 255, 0.5); }
+  body .description {
+    background: #EAEDF2; }
+    body .description h2 {
+      margin: 0 auto;
+      padding: 50px 0;
+      width: 720px;
+      font-weight: 300;
+      text-align: center; }
+    body .description button {
+      font-size: 18px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      color: white;
+      background: #539BF1;
+      border: 1px solid black;
+      border-radius: 5px; }
+    body .description p {
+      margin-bottom: 50px;
+      text-align: center;
+      font-size: 14px; }
+  body .section {
+    padding-top: 50px; }
+    body .section h2 {
+      font-size: 30px;
+      font-weight: 400;
+      text-align: center; }
+    body .section h3 {
+      font-weight: 300;
+      text-align: center;
+      line-height: 1.5em; }
+    body .section .plans {
+      max-width: 750px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap; }
+      body .section .plans .payement {
+        width: 350px;
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column; }
+        body .section .plans .payement:nth-child(1) {
+          border-right: 1px solid rgba(0, 0, 0, 0.1); }
+        body .section .plans .payement img {
+          width: 200px;
+          margin: 0 auto; }
+        body .section .plans .payement button {
+          font-size: 14px;
+          font-weight: 300;
+          margin: 0 auto;
+          width: 150px;
+          background: #539BF1;
+          color: white;
+          padding: 10px 20px;
+          border: 1px solid black;
+          border-radius: 5px; }
+        body .section .plans .payement p {
+          text-align: center;
+          font-weight: 200;
+          font-style: italic; }
+  body .branding {
+    border-top: 1 px solid rgba(0, 0, 0, 0.5);
+    background: #EAEDF2;
+    text-align: center;
+    padding-top: 50px; }
+    body .branding h2 {
+      font-weight: 400; }
+    body .branding h3 {
+      font-weight: 300; }
+  body .contact {
+    line-height: 2em;
+    margin-bottom: 50px; }
+    body .contact h2 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 40px; }
+    body .contact h3 {
+      text-align: center;
+      font-weight: 300; }
+    body .contact form {
+      background: #EAEDF2;
+      width: 350px;
+      margin: 0 auto;
+      padding: 20px 30px;
+      border: 1px solid #CCC;
+      border-radius: 5px;
+      line-height: 1.8em; }
+      body .contact form label {
+        margin-left: 23px; }
+      body .contact form input {
+        width: 300px;
+        height: 25px;
+        margin-bottom: 20px;
+        margin-left: 23px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        font-size: 1em; }
+      body .contact form button {
+        font-size: 14px;
+        width: 200px;
+        margin: 0 auto;
+        background: #539BF1;
+        color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 75px;
+        padding: 5px 10px; }
+      body .contact form p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300; }
+  body footer {
+    background: #3F4655; }
+    body footer .categories {
+      padding-left: 116px;
+      background: #3F4655;
+      display: flex;
+      flex-wrap: wrap; }
+      body footer .categories ul {
+        margin: 50px 0;
+        list-style: none; }
+        body footer .categories ul h3 {
+          color: #B3B5BA;
+          font-weight: 400;
+          font-size: 0.875em; }
+        body footer .categories ul li {
+          font-weight: 300;
+          line-height: 1.5em;
+          font-size: 1em;
+          color: #fff; }
+    body footer .social {
+      width: 225px;
+      margin: 0 auto;
+      background: #3F4655; }
+      body footer .social i {
+        color: #3F4655;
+        background: #B3B5BA;
+        padding: 10px 10px;
+        border-radius: 20%; }
+        body footer .social i:nth-child(1) {
+          padding: 10px 15px; }
+    body footer .credits {
+      text-align: center;
+      color: #B3B5BA;
+      padding: 25px 0 50px 0; }
 
 /*# sourceMappingURL=style.css.map */

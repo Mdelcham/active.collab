@@ -7,6 +7,7 @@
     <meta name="Description" content="Test for badges">
     <title>Active.collab</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
@@ -18,9 +19,171 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <div class="container">
-        <H1>Test</H1>
+    <nav class="navBar">
+        <div class="navBar-brand">
+            <img src="assets/img/logo.png" alt="logo">
+        </div>
+        <div class="navBar-center">
+            <ul>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>More +</li>
+            </ul>
+        </div>
+        <div class="navBar-Right">
+            <p>Help & Support</p>
+            <p>Blog</p>
+            <p>Ressources</p>
+            <button class="try">Try it free</button>
+            <button class="sign">Sign in</button>
+        </div>
+    </nav>
+    <header>
+        <h1>Powerful, yet simple project management tool</h1>
+    </header>
+    <div class="content">
+        <div class="item first">
+            <img src="assets/img/feuille.png" alt="feuille">
+            <h3>Task Management</h3>
+            <p>Stay organized with an advanced to-do list and track your project.</p>
+        </div>
+        <div class="item second">
+            <img src="assets/img/smiley.png" alt="smiley">
+            <h3>Team Collaboration</h3>
+            <p>Efficiently work together with your team to deliver top-notch results.</p>
+        </div>
+        <div class="item second">
+            <img src="assets/img/time.png" alt="feuille">
+            <h3>Time Tracking</h3>
+            <p>Track every minute of your work and bill clients accordingly.</p>
+        </div>
+        <div class="item first">
+            <img src="assets/img/invoice.png" alt="feuille">
+            <h3>Invoicing</h3>
+            <p>ActiveCollab helps your team stay organized when you outgrow email. </p>
+        </div>
     </div>
+    <div class="description">
+        <h2>ActiveCollab helps your team stay organized when you outgrow email. But it’s so much more than that — with plenty of neat add-ons, it’s a one-stop solution for all your business needs.</h2>
+        <button>Try it free for 30 days !</button>
+        <p>No credit card required, unsubscribe at any times.</p>
+        <img src="assets/img/figure.png" alt="figure">
+    </div>
+    <div class="section">
+        <h2>On cloud or your server</h2>
+        <h3> ActiveCollab runs in the cloud like most browser apps today, but you can  <br> also install it on your own server. Try it free for 30 days and then decide <br> what works best for you.</h3>
+        <div class="plans">
+            <div class="payement">
+                <img src="assets/img/30.svg" alt="monthly plan">
+                <h2>Monthly Plans</h2>
+                <h3>In the cloud <br> No setup required <br> Ready in 2 minutes</h3>
+                <button>Plans & Pricings</button>
+                <p>from $25 / month</p>
+            </div>
+            <div class="payement">
+                <img src="assets/img/selfhosted-plan.svg" alt="self-hosted plan">
+                <h2>Self-Hosted</h2>
+                <h3>Install on your own server <br> Unlimited team members and storage <br> One free year of support and upgrades</h3>
+                <button>Learn More</button>
+                <p>Pay once, use forever</p>
+            </div>
+        </div>
+    </div>
+    <div class="branding">
+        <h2>Who’s using ActiveCollab?</h2>
+        <h3>For more than 10 years, we've been trusted by over 200,000 people in <br> companies ranging from small businesses to Fortune 500 members,<br> universities and government institutions.</h3>
+        <img src="assets/img/brand-logo.svg" alt="brand-logo">
+    </div>
+    <div class="contact">
+        <h2>Get started with ActiveCollab</h2>
+        <h3>Enter your details to get a month of ActiveCollab <br> absolutely free, without any limitations.</h3>
+        <form action="">
+            <label for="name">Enter your Email or Organization</label><br>
+            <input type="text" name="name" placeholder="Enter name or organization">
+            <br>
+            <label for="email">Email</label> <br>
+            <input type="text" name="email" placeholder="name@organization.com">
+            <br>
+            <label for="password">Password</label> <br>
+            <input type="text" name="password" placeholder="The longer, the stronger">
+            <br>
+            <button type="submit">Start my free month!</button>
+            <br>
+            <p>Hope you'll enjoy it!</p>
+        </form> 
+    </div>
+    <footer>
+        <div class="categories">
+            <div class="product">
+                <ul>
+                    <h3>Product</h3>
+                    <li>Features</li>
+                    <li>All Features</li>
+                    <li>Pricing</li>
+                    <li>Add-Ons</li>
+                    <li>Roadmap</li>
+                    <li>Timer</li>
+                    <li>Mobile Apps</li>
+                </ul>
+            </div>
+            <div class="alternative">
+                <ul>
+                    <h3>Alternative</h3>
+                    <li>Best Project Management Tools Comparison</li>
+                    <li>Basecamp Alternative</li>
+                    <li>Trello Alternative</li>
+                    <li>Asana Alternative</li>
+                    <li>Teamwork Alternative</li>
+                    <li>Wrike Alternative</li>
+                    <li>JIRA Alternative</li>
+                    <li>MS Project Alternative</li>
+                </ul>
+            </div>
+            <div class="solution">
+                <ul>
+                    <h3>Solution</h3>
+                    <li>Self-Hosted Project Management</li>
+                    <li>Task Management</li>
+                    <li>Project Management</li>
+                    <li>Team Collaboration</li>
+                    <li>Team Management</li>
+                    <li>Client Management</li>
+                    <li>Time Tracking</li>
+                    <li>Invoicing</li>
+                </ul>
+            </div>
+            <div class="company">
+                <ul>
+                    <h3>Company</h3>
+                    <li>About & Contact</li>
+                    <li>Careers</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Security</li>
+                </ul>
+            </div>
+            <div class="resources">
+                <ul>
+                    <h3>Resources</h3>
+                    <li>Project Management Guides</li>
+                    <li>Blog</li>
+                    <li>Newsletter</li>
+                    <li>Help & Support</li>
+                </ul>
+            </div>  
+        </div>
+        <div class="social">
+                <i class="fab fa-facebook-f fa-lg"></i>
+                <i class="fab fa-twitter fa-lg"></i>
+                <i class="fab fa-instagram fa-lg"></i>
+                <i class="fab fa-linkedin-in fa-lg"></i>
+                <i class="fab fa-medium-m fa-lg"></i>
+        </div>
+        <div class="credits">
+            <p>Happy collaborating!</p>
+            <p>© 2007–2018 ActiveCollab</p>
+        </div>
+    </footer>
 
     <!-- Script -->
     <script src="./upup.min.js"></script>
